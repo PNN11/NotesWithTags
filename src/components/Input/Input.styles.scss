@@ -1,0 +1,16 @@
+.input-wrapper {
+  gap: 25px;
+  align-items: center;
+  display: flex;
+  > label {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  > input {
+    width: 70%;
+    font-size: 18px;
+    border: 2px solid #565353;
+    border-radius: 7px;
+    padding: 7px;
+  }
+}

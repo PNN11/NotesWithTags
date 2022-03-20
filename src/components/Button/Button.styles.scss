@@ -1,0 +1,22 @@
+.btn {
+  border: 2px solid gray;
+  border-radius: 7px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  background: white;
+  color: gray;
+  padding: 9px 14px;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.btn-primary {
+  background: linear-gradient(97deg, #808080, #efeeef);
+  color: white;
+}

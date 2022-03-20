@@ -1,0 +1,33 @@
+.note {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  justify-content: space-between;
+  > .note-actions {
+    min-width: 168px;
+  }
+}
+.note-text-tag {
+  font-weight: bold;
+}
+.note-tag {
+  background: none;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+  margin-right: 15px;
+  text-decoration: underline;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    &::after {
+      content: "✖";
+      position: absolute;
+      right: -12px;
+      top: -7px;
+    }
+  }
+}
